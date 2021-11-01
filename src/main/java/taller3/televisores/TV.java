@@ -102,4 +102,12 @@ public class TV {
         return estado;
     }
 
+    public static void setNumTV(int numTV) {
+        TV.numTV = numTV;
+    }
+
+    public static int getNumTV() {
+        return numTV;
+    }
+
 }
